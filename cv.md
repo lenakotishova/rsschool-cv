@@ -4,12 +4,6 @@
   <meta charset="UTF-8">
 </head>
 <body>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-</head>
-<body>
   <h1>Elena Kotishova</h1>
   <div>
   <div>
@@ -22,7 +16,6 @@
   <h3><a href="https://www.linkedin.com/in/kotishovaelena/">LinkedIn</a></h3>
   <h3><a href="http://t.me/lena_kotishova">Telegram</a></h3>
   </div>
-
   <div>
     <h2>Expertise</h2>
     <ul>
@@ -87,9 +80,6 @@
     <h4>Intensive Chinese language Program</h4>
     <h4>2019 - 2020</h4>
     </div>
-</body>
-
-
 </html>
 </body>
 

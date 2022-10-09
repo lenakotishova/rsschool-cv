@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
 </head>
 <body>
+<div>
   <h1>Elena Kotishova</h1>
-  <div>
-  <div>
+</div>
+<div>
   <h2><strong>Conatcts</strong></h2>
-  </div>
+</div>
+<div>
   <h3>Phone</h3>
   <p class="content">+375 44 510 41 51</p>
   <h3>Email</h3>
@@ -80,8 +82,5 @@
     <h4>Intensive Chinese language Program</h4>
     <h4>2019 - 2020</h4>
     </div>
-</html>
 </body>
-
-
 </html>

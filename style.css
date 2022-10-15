@@ -1,20 +1,3 @@
-@media screen and (min-resolution: 150dpi) {
-    body {
-        border: solid black 5px;
-        padding: 50px;
-        height: auto;
-        width: 1240px;
-    }
-}
-
-@media screen and (min-resolution: 300dpi) {
-    body {
-        border: solid black 5px;
-        padding: 50px;
-        height: auto;
-        width: 2480px;
-    }
-}
 * {
     margin: 0;
     padding: 0;
@@ -22,19 +5,20 @@
 }
 
 body {
-    border: solid black 5px;
+    border: solid black 1px;
+    margin: auto;
     padding: 50px;
-    height: auto;
-    width: 750px;
-
+    width: 45vw;
 }
 
 .cont {
     display: grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: 3fr 4fr;
     column-gap: 25px;
 }
-
+.header-col-1 {
+    width: 42.85%;
+}
 
 .profile-name {
     display: flex;
@@ -42,10 +26,6 @@ body {
     font-size: 30px;
     letter-spacing: 1px;
     width: 100%;
-}
-
-.half-section-title {
-    padding-top: 8px;
 }
 
 a {
@@ -60,26 +40,28 @@ a {
     border-bottom: 2px solid rgb(132, 125, 125);
 }
 
-.section-content {
-    padding-bottom: 8px;
+.contacts-content {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 5px 5px 0 0;
 }
 
-.contacts-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
-}
-
-.section-layout {
-    padding: 10px 0 20px 0;
+section {
+    padding: 10px 0 10px 0;
     width: 100%;
 }
 
 .section-list {
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 100;
 }
-
+.section-list li {
+    padding-bottom: 8px;
+}
 .courses-content {
     padding: 2px 0 2px 0;
     font-size: 10px;
@@ -87,16 +69,14 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
-.responsibilities {
+.responsibilities li {
     font-family: 'Lato', sans-serif;
     font-size: 11px;
     font-weight: 100;
     color: #737373;
-    padding: 5px;
-}
-
-.responsibilities li {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
+    line-break: auto;
+    line-height: 12px;
 }
 
 header {
@@ -105,17 +85,53 @@ header {
     max-width: 1500px;
 }
 
+
 .contacts-col {
-    width: 100%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-flow: column;
+    margin: 3px auto;
+    grid-gap: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
-.contacts-col-1 {
-    display: inline-block;
-    padding-right: 35px;
+.contacts-column {
+    display: grid;
+    grid-auto-columns: max-content;
 }
 
-.contacts-col-2 {
-    display: inline-block;
+footer {
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h3 {
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    padding: 2px 0 5px 0;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+h5 {
+    font-size: 9px;
+    font-weight: 200;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    padding-bottom: 2px;
+}
+h6 {
+    font-size: 8px;
+    font-weight: 100;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-bottom: 7px;
 }

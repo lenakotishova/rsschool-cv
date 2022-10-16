@@ -31,7 +31,7 @@
     <li>SQL</li>
     <li>Python</li>
     <li>Postman</li>
-    <li>HTML&CSS</li>
+    <li>HTML&ampCSS</li>
     <li>DevTools</li>
     <li>Grafana</li>
     <li><a href="https://github.com/lenakotishova">GitHub</a></li>

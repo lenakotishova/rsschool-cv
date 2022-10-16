@@ -134,3 +134,13 @@ h6 {
     font-style: italic;
     padding-bottom: 7px;
 }
+.img-profile {
+    width:auto; 
+    height:270px; 
+    float: right;
+}
+
+.logo {
+    width: 120px; 
+    height: auto;
+}

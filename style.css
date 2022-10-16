@@ -28,6 +28,11 @@ body {
     width: 100%;
 }
 
+.profile-img {
+    height: 270px;
+    float: right;
+}
+
 a {
     text-decoration: none;
 }
@@ -104,6 +109,14 @@ footer {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+
+h3 {
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
 
 h4 {
     padding: 2px 0 5px 0;
@@ -124,6 +137,7 @@ h6 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: italic;
     padding-bottom: 7px;
+
 }
 .img-profile {
     width:auto; 

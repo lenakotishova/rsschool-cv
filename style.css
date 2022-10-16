@@ -1,0 +1,35 @@
+html,body{
+    height: 297mm;
+    width: 210mm;
+		margin: 5px;
+		padding: 15px;
+}
+header {
+    display: flex;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+ }
+ .name {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 36px;
+}
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    float: right;
+}
+.page {
+    display: flexbox;
+    column-gap: 2px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    column-count: 2;
+    align-items: baseline;
+    flex-direction: row;
+}
+

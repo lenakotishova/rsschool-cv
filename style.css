@@ -160,7 +160,10 @@ h6 {
     height: auto;
 }
 
-#footer {
+.footer-el {
     font-size: 24px;
     font-style: bold;
+}
+#footer-image {
+    width: 120px;
 }
